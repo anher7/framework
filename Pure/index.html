@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Homepage</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">Homepagina</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="About.html" class="pure-menu-link">About</a></li>
+                <li class="pure-menu-item"><a href="Voordelen.html" class="pure-menu-link">Voordelen</a></li>
+                <li class="pure-menu-item"><a href="Nadelen.html" class="pure-menu-link">Nadelen</a></li>
+                <li class="pure-menu-item"><a href="Handleiding.html" class="pure-menu-link">Handleidingen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Welkom!</h1>
+            <h2>Welkom bij onze webproject over het framework Pure!</h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Waarom?</h2>
+            <p>
+                Voor ons opdracht moesten wij een framework kiezen en aan de hand daarvan moesten wij een site maken met de framework, over de frameworkd.<br>
+                Als eerste hadden wij gekozen voor het framework 'Django', maar dat liep slecht af. Doordat we in tijdnood raakten, hebben wij er voor gekozen om een simpelere framework te kiezen. Zo zijn wij gekomen bij het framework 'Pure'.
+            </p>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Wat kun je hier vinden?</h2>
+            <p>
+                Hieronder op een rijtje staat wat je kan vinden wat er op deze site te vinden is:
+                <nav>
+                    <ul>
+                        <li>Wat is Pure?</li>
+                        <li>Wat zijn de voordelen van Pure?</li>
+                        <li>Wat zijn de nadelen van Pure?</li>
+                        <li>Handleidingen</li>
+                    </ul>
+                </nav>
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+            <div class="pure-g">
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/ui.js"></script>
+
+</body>
+</html>

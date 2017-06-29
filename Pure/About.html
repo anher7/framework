@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>About</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+</head>
+<body>
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">About</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Homepage</a></li>
+                <li class="pure-menu-item"><a href="Voordelen.html" class="pure-menu-link">Voordelen</a></li>
+                <li class="pure-menu-item"><a href="Nadelen.html" class="pure-menu-link">Nadelen</a></li>
+                <li class="pure-menu-item"><a href="Handleiding.html" class="pure-menu-link">Handleidingen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>About</h1>
+            <h2>Wat is Pure?</h2>
+        </div>
+    </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Wat is het?</h2>
+            <p>Pure is een set van kleine, responsieve CSS modules dat je kan gebruiken in elk web project.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">CSS met een minimalistisch footprint</h2>
+            <p>Pure is ontzettend klein. De hele set van modules bevat 3.8KB.
+                Het framework is gemaakt met mobiele devices in gedachten.
+                Het was belangrijk voor de makers van Pure om hun files zo klein mogelijk te houden.
+                Daarnaast is elke CSS lijn zorgvuldig bedacht. </p>
+        </div>
+
+    <div class="content">
+        <h2 class="content-subhead">Staat je niet in de weg</h2>
+        <p>Pure heeft minimalistische styles en moedigt je aan om jouw eigen style er boven op te schrijvenn.
+        Het is gemaakt om uit je weg te gaan en maakt het daardoor gemakkelijk om er met je eigen stijl er overheen te gaan.</p>
+    </div>
+
+
+            <img src="css/color.png" alt="Peyto Lake" style="width: 100%">
+
+<script src="js/ui.js"></script>
+</div>
+</body>
+</html>

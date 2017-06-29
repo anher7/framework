@@ -1,0 +1,15 @@
+img{
+    width: 50%;
+    margin-bottom: 8%;
+}
+nav li{
+    border: solid black 2px;
+    width: 50%;
+    background-color: #1f8dd6;
+    text-decoration: none;
+    font-size: 20pt;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 4%;
+
+}
